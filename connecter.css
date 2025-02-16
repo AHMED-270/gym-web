@@ -1,0 +1,334 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.h{
+    color: white;
+    text-align: center;
+}
+.container1{
+    position: relative;
+    max-width: 1400px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 370px;
+    margin-top: 70px;
+    text-align: center;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+input{
+    margin-top: 12px;
+    width: 80%;
+    padding: 7px 8px;
+    border: none;
+    border-radius: 20px;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.pro{
+    font-size: 2.5rem;
+    color: #111;
+}
+#progym{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9500;
+}
+.accueil {
+    position: relative;
+    background: url('https://via.placeholder.com/1200x800?text=ProGYM+Background') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.accueil .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.accueil h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.accueil p {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.pro{
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+.btn-primary {
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+}
+.services {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  
+}
+
+.services h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #f5f5f5;
+    border-radius: 8PX;
+    box-shadow: 0 5px 8PX rgba(0, 0, 0, .1);
+    padding: 20px 0;
+    transition: transform 0.7S ease;
+    width: 21.25EM;
+    margin: 90.5px;
+}
+
+.service-card:hover {
+    transform: scale(1.1);
+}
+
+.service-card img {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+.programmes {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+.programmes h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.programmes-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.programme-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.programme-card:hover {
+    transform: scale(1.05);
+}
+
+.programme-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.programme-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.programme-card p {
+    font-size: 1rem;
+}
+.contact {
+    background-color: gray;
+    padding: 60px ;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 40%;
+    padding: 11px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
+
+.contact button {
+    padding: 15px 25px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #e67e22;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #f39c12;
+}
+.tof{
+    text-align: end;
+}
+.butn {
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: 0.7s ease;
+    display: inline-block;
+    
+    
+
+}
+
+.butn:hover {
+    background-color: #e67e22;
+    transform: scale(1.1);
+}
+
+.bjr{
+    margin-top: 10px;
+    margin: 30%;
+    padding: 3%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
